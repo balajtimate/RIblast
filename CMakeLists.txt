@@ -10,7 +10,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # List all source files
-set(SOURCE_FILES
+target_sources(RIblast
+  PRIVATE
     src/db_construction.cpp
     src/fastafile_reader.cpp
     src/main.cpp
